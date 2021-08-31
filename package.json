@@ -14,6 +14,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "build-storybook-docs": "build-storybook -s public --docs",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.14.8",
     "@storybook/addon-actions": "^6.3.7",
     "@storybook/addon-essentials": "^6.3.7",
     "@storybook/addon-links": "^6.3.7",
@@ -59,6 +61,7 @@
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.7",
     "chromatic": "^5.9.2",
+    "cross-env": "^7.0.3",
     "prettier": "^2.3.2"
   }
 }
