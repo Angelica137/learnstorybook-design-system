@@ -5,6 +5,9 @@ import { Avatar } from "./Avatar";
 export default {
   title: "Design System/Avatar",
   component: Avatar,
+  parameters: {
+    componentSubtitle: "Display an image that represents a user or organisation",
+  },
 };
 
 export const Standard = (args) => <Avatar {...args} />;
