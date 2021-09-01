@@ -39,7 +39,14 @@
       }
     ]
   },
-  "babel": {},
+  "babel": {
+    "presets": [
+      "react-app",
+      {
+        "absoluteRuntime": false
+      }
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
