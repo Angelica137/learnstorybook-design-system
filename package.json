@@ -16,7 +16,7 @@
   "scripts": {
     "build-storybook-docs": "build-storybook -s public --docs",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
