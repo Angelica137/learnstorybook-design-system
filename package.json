@@ -14,6 +14,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "release": "auto shipit --base-branch=main",
     "build-storybook-docs": "build-storybook -s public --docs",
     "start": "react-scripts start",
     "build": "cross-env BABEL_ENV=production babel src -d dist",
